@@ -1,4 +1,6 @@
-# room-homepage
+# Room-Homepage : [View the Website here](https://ednese.github.io/room-homepage/)
+
+## ![](src/assets/preview.jpg)
 
 > A Vue.js project
 

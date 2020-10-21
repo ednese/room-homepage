@@ -27,6 +27,10 @@ export default {
     onClickChild (value) {
       this.$emit('clicked', value)
       this.filter = value
+      document.documentElement.style.overflow = 'auto'
+      if (value === true) {
+        document.documentElement.style.overflow = 'hidden'
+      }
     }
   },
   data () {
